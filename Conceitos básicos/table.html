@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      table thead th{
+        background-color: black;
+        color: white;
+      }
+      table tfoot td{
+        background-color: lightgray;
+      }
+      table tbody tr:nth-child(even) td{
+        background-color: #f1f1f1;
+      }
+      table tbody tr:hover td{
+        background-color: #E9E9E9;
+      }
+    </style>
+  </head>
+  <body>
+    <table
+      summary="teste"
+      width="250"
+      align="center"
+      cellspacing="0"
+      cellpadding="5"
+    >
+      <thead>
+        <tr>
+          <th title="Nome Completo">Nome</th>
+          <th>Idade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Diogo</td>
+          <td>37</td>
+        </tr>
+        <tr>
+          <td>Diogo</td>
+          <td>37</td>
+        </tr>
+        <tr>
+          <td>Diogo</td>
+          <td>37</td>
+        </tr>
+        <tr>
+          <td>Diogo</td>
+          <td>37</td>
+        </tr>
+        <tr>
+          <td>Diogo</td>
+          <td>37</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+      </tbody>
+    </table>
+  </body>
+</html>
